@@ -1,13 +1,11 @@
 import React from 'react'
 
-class Contact extends React.Component {
-  render() {
-    return (
-      <div>
-        Contact page
-      </div>
-    )
-  }
+function Contact()  {
+  return (
+    <div>
+      Contact
+    </div>
+  )
 }
 
 export default Contact
