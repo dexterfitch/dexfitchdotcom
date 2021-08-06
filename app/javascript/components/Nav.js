@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom'
 class Nav extends React.Component {
   render () {
     return (
-      <div>
-        <Link to="/" className="display-inline-block">
+      <div className="nav-col full-height col-sm-2 position-fixed">
+        <Link to="/">
           <div className="logo-area">
             <img src="/assets/poo.png" className="poo img-fluid mx-auto d-block" />
           </div>

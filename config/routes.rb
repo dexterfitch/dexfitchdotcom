@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   root 'pages#index'
 
   namespace :api, defaults: { format: 'json' } do
-    resources :entries, only: :index
+    resources :works
   end
   
   match '*path', to: 'pages#index', via: :all
